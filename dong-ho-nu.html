@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6YWB4ECCWW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-6YWB4ECCWW');
+    </script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" /> -->
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="../css/libs.bundle.css" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../css/index.bundle.css" />
+
+    <!-- Title -->
+    <title>Sản phẩm - STOREY</title>
+</head>
+
+<body>
+
+
+   <!-- navbar -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-sticky navbar-light border-bottom" >
+    <div class="container">
+      <a href="../html/trangchu.html" class="navbar-brand"><img src="../img/image-removebg-preview (4).png" alt="Logo"></a>
+
+      <!-- secondary -->
+      <ul class="navbar-nav navbar-nav-secondary order-lg-3">
+        <li class="nav-item">
+          <a class="nav-link nav-icon" data-bs-toggle="offcanvas" href="#offcanvasCart" role="button"
+            aria-controls="offcanvasCart">
+            <i class="bi bi-cart2"></i>
+          </a>
+        </li>
+        <li class="nav-item d-lg-none">
+          <a class="nav-link nav-icon" href="" role="button" data-bs-toggle="collapse" data-bs-target="#userNav"
+            aria-expanded="false">
+            <i class="bi bi-person"></i>
+          </a>
+        </li>
+        <li class="nav-item dropdown dropdown-hover d-none d-lg-block">
+          <a class="nav-link nav-icon" role="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="bi bi-person"></i>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item " href="../html/doi-mat-khau.html">Đổi mật khẩu</a></li>
+            <li><a class="dropdown-item " href="./account-settings.html">Cài đặt</a></li>
+            <li><a class="dropdown-item " href="./account-orders.html">Đặt hàng</a></li>
+            <li><a class="dropdown-item " href="./account-billing.html">Thanh toán</a></li>
+            <li><a class="dropdown-item text-red" href="#">Đăng xuất</a></li>
+          </ul>
+        </li>
+        <li class="nav-item d-lg-none">
+          <a class="nav-link nav-icon" href="" role="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="bi bi-list"></span>
+          </a>
+        </li>
+
+      </ul>
+
+      <!-- Navbar Primary -->
+      <div class="collapse navbar-collapse" id="navbar" data-bs-parent="#mainNav">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown dropdown-hover">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-1" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Trang chủ
+            </a>
+          </li>
+          <li class="nav-item dropdown dropdown-hover">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Giới thiệu
+            </a>
+
+          </li>
+
+
+          <li class="nav-item dropdown dropdown-hover">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-4" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" data-bs-auto-close="outside">
+              Sản phẩm
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown-4">
+             
+              <li><a class="dropdown-item " href="./shop-cart.html">Giỏ hàng</a></li>
+              <li><a class="dropdown-item " href="./shop-checkout.html">Thanh toán</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown dropdown-hover">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-5" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Liên hệ
+            </a>
+          </li>
+          
+          <li>
+            <div class="grouped-inputs border" style="margin-left: 120px;">
+              <div class="row ">
+                <div class="col">
+                  <input type="text" class="form-control form-control text-primary"
+                    aria-label="Text input with dropdown button" placeholder="Bạn đang tìm gì?">
+                </div>
+                <div class="col-auto d-grid">
+                    <a href="#" class="btn-icon rounded-circle"><i
+                        class="bi bi-search" style="color: black; font-size: larger;"></i></a>
+                </div>
+              </div>
+            </div>
+            
+          </li>
+            
+        </ul>
+      </div>
+
+
+
+      <!-- Dropdown User Mobile -->
+      <div class="collapse account-collapse" id="userNav" data-bs-parent="#mainNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " href="#">Đổi mật khẩu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Cài đặt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Đặt hàng</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Thanh toán</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-red" href="#">Đăng xuất</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCart">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasCartLabel">Shopping Cart</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-unstyled">
+                <li>
+                    <div class="row g-2 g-lg-3 align-items-center">
+                        <a href="" class="col-3"><img class="img-fluid" src="./assets/images/products/product-1.jpg"
+                                alt="Product"></a>
+                        <div class="col">
+                            <a href="" class="text-black text-primary-hover lead">Bluetooth Speaker</a>
+                            <ul class="list-inline text-muted">
+                                <li class="list-inline-item">Price: <span class="text-secondary">$90</span></li>
+                                <li class="list-inline-item">Color: <span class="text-secondary">Blue</span></li>
+                                <li class="list-inline-item">Qty:
+                                    <div class="counter text-secondary" data-counter="qty-1">
+                                        <span class="counter-minus bi bi-dash"></span>
+                                        <input type="number" name="qty-1" class="counter-value" value="0" min="0"
+                                            max="10">
+                                        <span class="counter-plus bi bi-plus"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="" class="text-red underline">Xóa</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="mt-4">
+                    <div class="row g-2 g-lg-3 align-items-center">
+                        <a href="" class="col-3"><img class="img-fluid" src="./assets/images/products/product-2.jpg"
+                                alt="Product"></a>
+                        <div class="col">
+                            <a href="" class="text-black text-primary-hover lead">Bluetooth Speaker</a>
+                            <ul class="list-inline text-muted">
+                                <li class="list-inline-item">Price: <span class="text-secondary">$90</span></li>
+                                <li class="list-inline-item">Color: <span class="text-secondary">Blue</span></li>
+                                <li class="list-inline-item">Qty:
+                                    <div class="counter text-secondary" data-counter="qty-1">
+                                        <span class="counter-minus bi bi-dash"></span>
+                                        <input type="number" name="qty-1" class="counter-value" value="0" min="0"
+                                            max="10">
+                                        <span class="counter-plus bi bi-plus"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="" class="text-red underline">Xóa</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="mt-4">
+                    <div class="row g-2 g-lg-3 align-items-center">
+                        <a href="" class="col-3"><img class="img-fluid" src="./assets/images/products/product-3.jpg"
+                                alt="Product"></a>
+                        <div class="col">
+                            <a href="" class="text-black text-primary-hover lead">Bluetooth Speaker</a>
+                            <ul class="list-inline text-muted">
+                                <li class="list-inline-item">Price: <span class="text-secondary">$90</span></li>
+                                <li class="list-inline-item">Color: <span class="text-secondary">Blue</span></li>
+                                <li class="list-inline-item">Qty:
+                                    <div class="counter text-secondary" data-counter="qty-1">
+                                        <span class="counter-minus bi bi-dash"></span>
+                                        <input type="number" name="qty-1" class="counter-value" value="0" min="0"
+                                            max="10">
+                                        <span class="counter-plus bi bi-plus"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="" class="text-red underline">Xóa</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="offcanvas-footer">
+            <div class="d-grid gap-1">
+                <a href="" class="btn btn-outline-light rounded-pill">Xem giỏ hàng</a>
+                <a href="" class="btn btn-primary rounded-pill">Tiến hành thanh toán</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="offcanvas-wrap">
+
+        <section class="py-15 py-xl-20">
+            <div class="container mt-5">
+                <div class="row g-3 g-md-5 align-items-end mb-5">
+                    <div class="col-md-6">
+                        <h1 class="mb-2">ĐỒNG HỒ NỮ</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                                <li class="breadcrumb-item"><a href="../html/trangchu.html">Danh mục</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Đồng hồ nữ</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <div class="dropdown">
+                                    <a class="underline text-black" href="#" role="button" id="dropdownMenuLink"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Giá từ thấp đến cao <i class="bi bi-chevron-down"></i>
+                                    </a>
+
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xl-3 d-none d-xl-block">
+
+                        <div class="widget">
+                            <span class="d-flex eyebrow text-muted mb-2">Brands</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <div class="form-check form-check-minimal">
+                                        <input class="form-check-input" type="checkbox" value="" id="brand-1" checked>
+                                        <label class="form-check-label" for="brand-1">
+                                            Vans
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="mt-1">
+                                    <div class="form-check form-check-minimal">
+                                        <input class="form-check-input" type="checkbox" value="" id="brand-2">
+                                        <label class="form-check-label" for="brand-2">
+                                            Carhart WIP
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="mt-1">
+                                    <div class="form-check form-check-minimal">
+                                        <input class="form-check-input" type="checkbox" value="" id="brand-3">
+                                        <label class="form-check-label" for="brand-3">
+                                            Carhart WIP
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="widget mt-5">
+                            <span class="d-flex eyebrow text-muted mb-2">Color</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <div class="form-check form-check-color">
+                                        <input class="form-check-input" type="checkbox" value="" id="color-1">
+                                        <label class="form-check-label" for="color-1">
+                                            <span class="bg-red"></span> Red
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="mt-1">
+                                    <div class="form-check form-check-color">
+                                        <input class="form-check-input" type="checkbox" value="" id="color-2">
+                                        <label class="form-check-label" for="color-2">
+                                            <span class="bg-blue"></span> Blue
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="mt-1">
+                                    <div class="form-check form-check-color">
+                                        <input class="form-check-input" type="checkbox" value="" id="color-3">
+                                        <label class="form-check-label" for="color-3">
+                                            <span class="bg-green"></span> Green
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="mt-1">
+                                    <div class="form-check form-check-color">
+                                        <input class="form-check-input" type="checkbox" value="" id="color-4">
+                                        <label class="form-check-label" for="color-4">
+                                            <span class="bg-yellow"></span> Yellow
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="widget mt-5">
+                            <span class="d-flex eyebrow text-muted mb-2">Price</span>
+                            <div class="range-slider" data-range='{"decimals": 0,"step": 1,"connect": true, "start" : [20,80], "range" : {"min": 0, "max" :
+                        100}}'></div>
+                            <div class="range-slider-selection">Price: <span class="range-slider-value"
+                                    id="range-min"></span>
+                                &mdash; <span class="range-slider-value" id="range-max"></span></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9">
+                        <div class="row g-3">
+                            <div class="col-md-6 col-xl-4">
+                                <div class="product">
+                                    <figure class="product-image">
+                                        <a href="../html/chitietsanpham.html">
+                                            <img src="../img/product-01.png" alt="Image" />
+                                            
+                                        </a>
+                                    </figure>
+                                    <a class="product-title" href="../html/chitietsanpham.html">Watch</a>
+                                    <span class="product-price">$100 </span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <div class="product">
+                                    <figure class="product-image">
+                                        <a href="#!">
+                                            <img src="../img/product-01.png" alt="Image" />
+                                        </a>
+                                    </figure>
+                                    <a class="product-title" href="#!">Black Karlo Backpack</a>
+                                    <span class="product-price">$88 </span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <div class="product">
+                                    <figure class="product-image">
+                                        <a href="#!">
+                                            <img src="../img/product-01.png" alt="Image" />
+                                        </a>
+                                    </figure>
+                                    <a class="product-title" href="#!">Black Closca Helmet</a>
+                                    <span class="product-price">$132 </span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <div class="product">
+                                    <figure class="product-image">
+                                        <a href="#!">
+                                            <img src="../img/product-01.png" alt="Image" />
+                                        </a>
+                                    </figure>
+                                    <a class="product-title" href="#!">Speaker</a>
+                                    <span class="product-price">$100 </span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <div class="product">
+                                    <figure class="product-image">
+                                        <a href="#!">
+                                            <img src="../img/product-01.png" alt="Image" />
+                                        </a>
+                                    </figure>
+                                    <a class="product-title" href="#!">Gravel Black Sigg Water Bottle</a>
+                                    <span class="product-price">$23 </span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <div class="product">
+                                    <figure class="product-image">
+                                        <a href="#!">
+                                            <img src="../img/product-01.png" alt="Image" />
+                                        </a>
+                                    </figure>
+                                    <a class="product-title" href="#!">Headphones</a>
+                                    <span class="product-price">$100 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-6">
+                    <div class="col text-center">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="py-15 py-xl-20 border-top" style="font-family: Montserrat, sans-serif;">
+            <div class="container">
+                <div class="row g-4 g-lg-5 mb-10">
+                    <div class="col-2 text-center text-md-start">
+                        <a href="././trangchu.html" class=""><img src="../img/image-removebg-preview (4).png" alt="Logo"
+                                width="150%"></a>
+                        <div class="col-lg-10 order-lg-2 text-center text-md-start">
+                            <ul class="list-inline small">
+                                <br>
+                                <br>
+                                <li class="list-inline-item ms-1"><a href="" class="text-reset text-primary-hover"><i
+                                            style="font-size: 200%;" class="bi bi-facebook"></i>
+                                        <h8> @Storey</h8>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item ms-1 pt-1"><a href=""
+                                        class="text-reset text-primary-hover"><i style="font-size: 200%;"
+                                            class="bi bi-instagram"></i>
+                                        <h8> @Storey</h8>
+                                    </a></li>
+                                <li class="list-inline-item ms-1 pt-1"><a href=""
+                                        class="text-reset text-primary-hover"><i style="font-size: 200%;"
+                                            class="bi bi-tiktok"></i>
+                                        <h8> @Storey</h8>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-1  text-center text-md-start">
+                        <ul class="list-unstyled">
+
+                        </ul>
+                    </div>
+                    <div class="col-4  text-center text-md-start">
+                        <ul class="list-unstyled">
+                            <p style="font-weight: bolder;">THÔNG TIN LIÊN HỆ</p>
+                            <li class="mb-1"><i class="bi bi-geo-alt"></i> 12 Nguyễn Văn Bảo, Phường
+                                4, Quận Gò Vấp, Tp. Hồ Chí Minh</li>
+                            <li class="mb-1"><i class="bi bi-telephone-fill"></i> 0123456789</li>
+                            <li class="mb-1"><i class="bi bi-envelope-fill"></i> contact@storey.com
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-3 text-center text-md-start">
+                        <ul class="list-unstyled">
+                            <p style="font-weight: bolder;">HỖ TRỢ</p>
+                            <li class="mb-1"><a href="" class="text-reset text-primary-hover">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="mb-1"><a href="" class="text-reset text-primary-hover">Hướng dẫn thanh toán</a>
+                            </li>
+                            <li class="mb-1"><a href="" class="text-reset text-primary-hover">Chính sách bảo hành</a>
+                            </li>
+                            <li class="mb-1"><a href="" class="text-reset text-primary-hover">Chính sách đổi trả</a>
+                            </li>
+                            <li class="mb-1"><a href="" class="text-reset text-primary-hover">Tư vấn sản phẩm</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2  text-center text-md-start">
+                        <ul class="list-unstyled">
+                            <p style="font-weight: bolder;">SITEMAP</p>
+                            <li class="mb-1"><a href="" class="text-reset text-primary-hover">Trang chủ</a></li>
+                            <li class="mb-1"><a href="" class="text-reset text-primary-hover">Giới thiệu</a></li>
+                            <li class="mb-1"><a href="" class="text-reset text-primary-hover">Sản phẩm</a></li>
+                            <li class="mb-1"><a href="" class="text-reset text-primary-hover">Liên hệ</a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="row align-items-center g-1 g-lg-6 text-muted">
+
+                    <div class="col-md-4  text-center text-md-end order-lg-3">
+                        <img src="../img/img-payment.png" alt="">
+                    </div>
+                    <div class="col-lg-6 text-center text-md-start">
+                        <h5 style="text-align: center;" class="small">Copyrights © 2022 by STOREY | All rights reserved.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- offcanvas - filters -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasFilter" aria-labelledby="offcanvasFilterLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasFilterLabel">Filters</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <div class="widget">
+                <span class="d-flex eyebrow text-muted mb-2">Brands</span>
+                <ul class="list-unstyled">
+                    <li>
+                        <div class="form-check form-check-minimal">
+                            <input class="form-check-input" type="checkbox" value="" id="brand-mob-1">
+                            <label class="form-check-label" for="brand-mob-1">
+                                Vans
+                            </label>
+                        </div>
+                    </li>
+                    <li class="mt-1">
+                        <div class="form-check form-check-minimal">
+                            <input class="form-check-input" type="checkbox" value="" id="brand-mob-2">
+                            <label class="form-check-label" for="brand-mob-2">
+                                Carhart WIP
+                            </label>
+                        </div>
+                    </li>
+                    <li class="mt-1">
+                        <div class="form-check form-check-minimal">
+                            <input class="form-check-input" type="checkbox" value="" id="brand-mob-3">
+                            <label class="form-check-label" for="brand-mob-3">
+                                Carhart WIP
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="widget mt-5">
+                <span class="d-flex eyebrow text-muted mb-2">Color</span>
+                <ul class="list-unstyled">
+                    <li>
+                        <div class="form-check form-check-color">
+                            <input class="form-check-input" type="checkbox" value="" id="color-mob-1">
+                            <label class="form-check-label" for="color-mob-1">
+                                <span class="bg-red"></span> Red
+                            </label>
+                        </div>
+                    </li>
+                    <li class="mt-1">
+                        <div class="form-check form-check-color">
+                            <input class="form-check-input" type="checkbox" value="" id="color-mob-2">
+                            <label class="form-check-label" for="color-mob-2">
+                                <span class="bg-blue"></span> Blue
+                            </label>
+                        </div>
+                    </li>
+                    <li class="mt-1">
+                        <div class="form-check form-check-color">
+                            <input class="form-check-input" type="checkbox" value="" id="color-mob-3">
+                            <label class="form-check-label" for="color-mob-3">
+                                <span class="bg-green"></span> Green
+                            </label>
+                        </div>
+                    </li>
+                    <li class="mt-1">
+                        <div class="form-check form-check-color">
+                            <input class="form-check-input" type="checkbox" value="" id="color-mob-4">
+                            <label class="form-check-label" for="color-mob-4">
+                                <span class="bg-yellow"></span> Yellow
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="widget mt-5">
+                <span class="d-flex eyebrow text-muted mb-2">Price</span>
+                <div class="range-slider" data-range='{"decimals": 0,"step": 1,"connect": true, "start" : [20,80], "range" : {"min": 0, "max" :
+            100}}'></div>
+                <div class="range-slider-selection">Price: <span class="range-slider-value range-min"></span>
+                    &mdash; <span class="range-slider-value range-max"></span></div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <!-- javascript -->
+    <script src="../js/vendor.bundle.js"></script>
+    <script src="../js/index.bundle.js"></script>
+</body>
+
+</html>
