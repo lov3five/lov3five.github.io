@@ -1,0 +1,220 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&family=Poppins:wght@800&family=Roboto&display=swap');/* Icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+:root {
+    --background-color: rgba(34, 40, 49, 1);
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+
+    --height-header: 100px;
+    --height-footer: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Prohibit highlighting and copying text */
+/* body {
+    -moz-user-select: none !important;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+} */
+
+/* Global */
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.typewriter {
+    text-align: center;
+    height: 60px;
+}
+
+
+
+.wrapper {
+    background-color: var(--background-color);
+}
+
+/* Header */
+.header {
+    display: flex;
+    height: 100px;
+    width: auto;
+    margin: 0px 120px 0px 120px;
+    align-items: center;
+    justify-items: center;
+    /* Prohibit highlighting and copying the text*/
+    -moz-user-select: none !important;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+/* Header > Logo */
+.logo-container {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    font-size: 150%;
+    color: aqua;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    align-items: center;
+    justify-items: center;
+
+}
+
+#logo h1 {
+    padding-top: 12px;
+}
+
+/* Header > Nav */
+.nav {
+    flex: 5;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: var(--font-roboto);
+}
+
+.nav li a:hover {
+    color: aqua;
+}
+
+.nav li a.active {
+    color: aqua;
+    font-weight: bolder;
+}
+
+/* Header > MyCV */
+.download-cv {
+    flex: 2;
+    text-align: center;
+}
+
+#btn-download-cv {
+    line-height: 37px;
+    border: 1px solid  #00b300;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color:  #00b300;
+    color: white;
+    width: 70%;
+    font-weight: bold;
+}
+
+/* Main */
+.main {
+    background-color: rgb(13, 52, 75);
+    height: calc(100vh - (var(--height-header) + var(--height-footer)));
+}
+
+.intro {
+    
+    margin-top: 0px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: var(--font-poppins);
+    /* Prohibit highlighting and copying the text*/
+    -moz-user-select: none !important;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+.intro .text-hello {
+    color: gray;
+    font-weight: bolder;
+    font-size: 180px;
+    opacity: 0.5;
+}
+
+.intro .text-intro{ 
+    padding-left: 20px;
+    margin-top: -40px;
+    font-size:70px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Oswald' !important;
+}
+
+.intro .text-intro .upper-text {
+    text-transform: uppercase;
+}
+
+.intro .underline{
+    height: 6px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.intro .text-desc{
+    margin-top: 10px;
+    padding-left: 20px;
+    font-family: var(--font-montserrat);
+    color: white;
+    display: flex;
+}
+
+
+/* Footer */
+.footer-text{
+    text-align: center;
+}
+
+.footer-text p{
+    line-height: 55px;
+    color: white;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
