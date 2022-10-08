@@ -6,51 +6,191 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L-3012 Blog</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <script src="../js/index.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
-
-        <div class="header">
-            <div class="logo-container">
-                <div id="logo">
-                    <h1>IIIOIII</h1>
-                    <h6>L-3012</h6>
+        <div class="fixed">
+            <div class="info-contact">
+                <div class="typewriter">
+                    <img
+                        src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFFF&center=sai&vCenter=sai&width=435&lines=Hello+world%2C+welcome+to+my+blog+%3C3">
                 </div>
             </div>
-            <ul class="nav">
-                <li><a class="active" href="#heel">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="download-cv">
-                <button type="button" id="btn-download-cv" onclick="showWarning()">Download CV
-                    <i class="bi bi-download"></i></button>
-
+            <div class="header">
+                <div class="logo-container">
+                    <div id="logo">
+                        <h1>IIIOIII</h1>
+                        <h6>L-3012</h6>
+                    </div>
+                </div>
+                <ul class="nav">
+                    <li><a class="active" href="#heel">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="download-cv">
+                    <button type="button" id="btn-download-cv" onclick="showWarning()">Download CV
+                        <i class="bi bi-download"></i></button>
+                </div>
             </div>
         </div>
         <div class="main">
             <!-- <a href="https://brittanychiang.com/">Link web for my Portfolio clone</a> -->
-            <div class="intro">
-                <div class="text-hello">HELLO</div>
-                <p class="text-intro">I'm <br> L-<span class="upper-text" style="color: aqua;">3012</span></p>
-                <div class="underline"></div>
-                <div class="text-desc">
-                    <span style="font-size: 25px;">Web Developer</span> <img src="../img/vietnam-circle.png" style="margin-left: 8px;" alt="" width="30px">
+            <div class="intro-container row">
+                <div class="intro col w-5">
+                    <div class="text-hello">HELLO</div>
+                    <p class="text-intro">I'm <br> L-<span class="upper-text" style="color: aqua;">3012</span></p>
+                    <div class="underline"></div>
+                    <div class="text-desc">
+                        <span style="font-size: 25px;">Web Developer</span> <img src="../img/vietnam-circle.png"
+                            style="margin-left: 8px;" alt="" width="30px">
+                    </div>
+                </div>
+                <div class="img-banner col w-5">
+                    <img class="my-image" style="border-radius: 50%;" src="../img/my-banner.png" alt="" srcset="">
+                </div>
+            </div>
+            <div class="what-i-do box-container">
+                <div class="title">
+                    <p class="text">What I Do</p>
+                    <p class="text-cover">What I Do</p>
+                </div>
+                <div class="content">
+                    <div class="icon-container">
+                        <div class="icon-item">
+                            
+                            <p> <i class="bi bi-code-slash"></i> <br> Web Design </p>
+                        </div>
+                        <div class="icon-item">
+                            <p>Teach Code</p>
+                        </div>
+                        <div class="icon-item">
+                            <p>UX/UI</p>
+                        </div>
+                        <div class="icon-item">
+                            <p> UX/UI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-skill box-container">
+                <div class="title">
+                    <p class="text">Skills</p>
+                    <p class="text-cover">Skills</p>
+                </div>
+                <div class="content">
+                    <!-- <div class="icon-skill-container">
+                        <div class="icon-box">
+                            <img src="../img/logo-code/html5-plain.svg" alt="" srcset="">
+                        </div>
+                        <div class="icon-box">
+                            <img src="../img/logo-code/css3-plain.svg" alt="" srcset="">
+                        </div>
+                        <div class="icon-box">
+                            <img src="../img/logo-code/javascript-plain.svg" alt="" srcset="">
+                        </div>
+                        <div class="icon-box">
+                            <img src="../img/logo-code/nodejs-plain.svg" alt="" srcset="">
+                        </div>
+                        <div class="icon-box">
+                            <img src="../img/logo-code/git-plain.svg" alt="" srcset="">
+                        </div>
+                        <div class="icon-box">
+                            <img src="../img/logo-code/figma-original.svg" alt="" srcset="">
+                        </div>
+                        <div class="icon-box">
+                            <img src="../img/logo-code/mongodb-original.svg" alt="" srcset="">
+                        </div>
+                        <div class="icon-box">
+                            <img src="../img/logo-code/npm-original-wordmark.svg" alt="" srcset="">
+                        </div>
+                        <div class="icon-box">
+                            <img src="../img/logo-code/ubuntu-plain.svg" alt="" srcset="">
+                        </div>
+                    </div> -->
+
+                    <!-- Skill -->
+                    <div class="list-skill">
+                        <div class="skill">
+                            <div class="name-skill">
+                                HTML
+                            </div>
+                            <div class="full-bar">
+                                <div class="progress-bar-skill" style="width: 50%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="name-skill">
+                                CSS
+                            </div>
+                            <div class="full-bar">
+                                <div class="progress-bar-skill" style="width: 70%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="name-skill">
+                                Javascript
+                            </div>
+                            <div class="full-bar">
+                                <div class="progress-bar-skill" style="width: 50%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="name-skill">
+                                NodeJS
+                            </div>
+                            <div class="full-bar">
+                                <div class="progress-bar-skill" style="width: 50%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="name-skill">
+                                Git
+                            </div>
+                            <div class="full-bar">
+                                <div class="progress-bar-skill" style="width: 50%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="name-skill">
+                                SQL
+                            </div>
+                            <div class="full-bar">
+                                <div class="progress-bar-skill" style="width: 50%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Activitive Github -->
+            <div class="box-container activity-github">
+                <div class="title">
+                    <p class="text">Recent Github Activity</p>
+                    <p class="text-cover">Recent Github Activity</p>
+                </div>
+                <div class="content">
+                    <img
+                        src="https://activity-graph.herokuapp.com/graph?username=lov3five&theme=react-dark&hide_border=true&area=true" />
                 </div>
             </div>
 
         </div>
         <div class="footer">
-            <div class="typewriter">
-                <img
-                    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFFF&center=sai&vCenter=sai&width=435&lines=Hello+world%2C+welcome+to+my+blog+%3C3">
-            </div>
             <div class="footer-text">
-                <p style="font-family: Montserrat;line-height: 40px;">FROM VIETNAM WITH <span style="color: red">❤</span> </p>
+                <p style="font-family: Montserrat;line-height: 40px;">FROM VIETNAM WITH <span
+                        style="color: red">❤</span> </p>
             </div>
         </div>
     </div>
