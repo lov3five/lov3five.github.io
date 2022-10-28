@@ -13,6 +13,30 @@
     --height-footer: 100px;
 }
 
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 20px;
+    border: 1px solid aqua;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, aqua, #0099ff);
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: aqua;
+}
+
 html {
     overflow-x: hidden;
 }
@@ -68,7 +92,7 @@ html {
 
 .box-container {
     width: 100%;
-    
+
 }
 
 .content {
@@ -87,11 +111,11 @@ html {
     background-color: var(--background-color);
 }
 
-.fixed{
+.fixed {
     z-index: 99;
     position: sticky;
     top: 0px;
-    
+
 }
 
 .info-contact {
@@ -265,6 +289,8 @@ html {
     background-color: rgb(14, 45, 58);
 }
 
+.title {}
+
 .title .text {
     margin-top: 0px;
     text-align: center;
@@ -292,26 +318,32 @@ html {
 .icon-container {
     display: flex;
     flex-direction: row;
-    padding: 0px;
     gap: 50px;
-    align-items: center;
-    justify-items: center;
 }
 
 .icon-container .icon-item {
+    display: flex;
+    flex-direction: column;
     flex: 1;
     height: 200px;
     border: 2px solid #00d9ff;
     border-radius: 25px;
     align-items: center;
-    opacity: 0.6;
+    height: auto;
 }
 
-.icon-container .icon-item p {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
+.icon-container .icon-item .icon {
+    font-size: 150px;
+    color: aqua;
 }
+
+.icon-item .icon-desc {
+    font-size: 20px;
+    color: white;
+    font-family: var(--font-poppins);
+    margin-top: -20px;
+}
+
 /*  */
 
 /* Skills */
@@ -336,10 +368,10 @@ html {
     top: 0;
     transition: top ease 0.6s;
     transition: height width linear 0.25s;
-    
+
 }
 
-.icon-box:hover{
+.icon-box:hover {
     border: 2px solid aqua;
     top: -15px;
     width: 75px;
@@ -356,12 +388,12 @@ html {
     background-color: rgb(14, 45, 58);
 }
 
-.list-skill .skill{
+.list-skill .skill {
     display: flex;
     gap: 30px;
     align-items: center;
     padding: 10px;
-    
+
 }
 
 .list-skill .skill .name-skill {
@@ -372,12 +404,12 @@ html {
     text-align: left;
 }
 
-.list-skill .skill .progress-bar-skill{
+.list-skill .skill .progress-bar-skill {
     height: 15px;
     border-radius: 20px;
-    background-image: linear-gradient(to right,aqua, #0099ff);
+    background-image: linear-gradient(to right, aqua, #0099ff);
     justify-content: center;
-    
+
 }
 
 .full-bar {
@@ -390,16 +422,21 @@ html {
 
 /* Activitive Github */
 .activity-github {
-    background-color: rgb(14, 45, 58);   
+    background-color: rgb(14, 45, 58);
 }
 
-.activity-github .content{
+.activity-github .content {
     display: flex;
     justify-content: center;
 }
 
-.activity-github .content img{
+.activity-github .content img {
     width: 75%;
+}
+
+/* Contact */
+.contact {
+    background-color: rgb(13, 23, 33);
 }
 
 
@@ -418,6 +455,47 @@ html {
 .footer-text p {
     line-height: 55px;
     color: white;
+}
+
+.up-top {
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #00d9ff;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.up-top .arrow-up {
+    font-size: 150%;
+    font-weight: bolder;
+    color: white;
+}
+
+.up-top:hover .up-top:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background-color: inherit;
+    animation: fade 1s forwards infinite linear;
+}
+
+@keyframes fade {
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
 }
 
 @keyframes fadeInUp {
@@ -449,19 +527,18 @@ html {
     }
 }
 
-@keyframes ferris {
+@keyframes ferris {}
 
-}
-
-@keyframes up-top-20px{
+@keyframes up-top-20px {
     0% {
         margin-top: -0px;
     }
+
     50% {
         margin-top: -10px;
     }
+
     100% {
         margin-top: -20px;
     }
 }
-

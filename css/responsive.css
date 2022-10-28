@@ -1,20 +1,2 @@
-@media screen and (max-width: 1500px){
-    .main .my-image{
-        
-    }
-}
 
-@media screen and (max-width: 1000px){
-    
-}
-
-/* Login page */
-@media screen and (min-width: 980px) {
-    #form {
-        width: 50vw;
-        max-width: 500px;
-        margin: auto;
-    }
-}
-    
 
