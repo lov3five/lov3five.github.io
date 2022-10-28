@@ -35,7 +35,7 @@ body {}
 }
 
 .bg-image {
-    background-image: url("/img/background-login.jpg");
+    background-image: url("https://lov3five.github.io/img/background-login.jpg");
     height: 100vh;
     /* You must set a specified height */
     background-position: center;
