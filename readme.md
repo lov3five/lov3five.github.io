@@ -10,7 +10,7 @@
         <a href="https://instagram.com/nakervn" target="_blank">Instagram</a>
     </p>
     <div style="font-weight: bolder;">
-        <img width="300px" style="border-radius:10px; margin-top: 35px;" src="./resource/gif/gif_logo.gif" />
+        <img width="320px" style="border-radius:10px; margin-top: 35px;" src="./resource/gif/gif_logo.gif" />
         <p style="font-size: 36px">Lượng Trần</p>
         <p style="font-size: 18px">Software Engineer | 💫Learn. 💻Work. 🌱Grow. | 💚Open Source</p>
     </div>
@@ -23,6 +23,6 @@
     </div>
 </div>
 <!-- Footer -->
-<div class="footer" align="center" style="margin-bottom: 0px;">
+<div class="footer" height="60px" align="center" style="margin-bottom: 0px;">
     <p>© 2023 L-3012 | Lượng Trần. All Rights Reserved.</p>
 </div>
