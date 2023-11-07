@@ -2,7 +2,9 @@
     <h1>About me</h1>
     <img style="border-radius: 50%" width="260px"
         src="https://media.licdn.com/dms/image/D5603AQHcVaanl35Xjg/profile-displayphoto-shrink_800_800/0/1694327418181?e=2147483647&v=beta&t=mgTu4qjjrMIONw3EgGArhsPinwkg5T_NM6vWdXIey00" />
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&weight=800&pause=1000&color=15DBF7&center=true&vCenter=true&random=false&width=435&lines=Hey%2C+I'm+Luong+Tran+%F0%9F%98%8E;I+am+a+former+student+at+IUH+-+Vietnam+;I+am+pursuing+a+career+in+Software+Engineering;%F0%9F%92%ABLearn.+%F0%9F%92%BBWork.+%F0%9F%8C%B1Grow.;%F0%9F%A4%8DOpen+Source" alt="Typing SVG" /></a>
+    <div>
+        <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&weight=800&pause=1000&color=15DBF7&center=true&vCenter=true&random=false&width=435&lines=Hey%2C+I'm+Luong+Tran+%F0%9F%98%8E;I+am+a+former+student+at+IUH+-+Vietnam+;I+am+pursuing+a+career+in+Software+Engineering;%F0%9F%92%ABLearn.+%F0%9F%92%BBWork.+%F0%9F%8C%B1Grow.;%F0%9F%A4%8DOpen+Source" alt="Typing SVG" /></a>
+    </div>
     <div>
         <p align="justify">
             I'm Luong Tran , a software engineer specializing in web application development, holding a Bachelor's
