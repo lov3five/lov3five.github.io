@@ -1,5 +1,3 @@
-# Lượng Trần - Learn. Work. Grow.
-
 <div align="center" style="margin-top: 20px;">
 <p style="font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;' ">
     <a href="https://github.com/lov3five" target="_blank">GitHub</a> ▪
