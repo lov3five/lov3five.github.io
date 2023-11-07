@@ -1,12 +1,13 @@
 <div align="center" style="margin-top: 20px;">
 <p style="font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;' ">
+    <a href="https://lov3five.github.io/about" target="_blank">Me</a> ▪
     <a href="https://github.com/lov3five" target="_blank">GitHub</a> ▪
     <a href="https://www.linkedin.com/in/luongtranstaff/" target="_blank">LinkedIn</a> ▪
     <a href="https://twitter.com/luongtranstaff" target="_blank">X</a> ▪
     <a href="https://instagram.com/nakervn" target="_blank">Instagram</a>
 </p>
 <div style="font-weight: bolder;">
-    <img width="345px" style="border-radius:50%; margin-top: 35px;" src="https://avatars.githubusercontent.com/u/67590509?v=4"/>
+    <img width="320px" style="border-radius:10px; margin-top: 35px;" src="./resource/gif/gif_logo.gif"/>
     <p style="font-size: 36px">Lượng Trần</p>
     <p style="font-size: 18px">Software Engineer | 💫Learn. 💻Work. 🌱Grow. | 💚Open Source</p>
 </div>
