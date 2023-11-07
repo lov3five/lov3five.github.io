@@ -1,6 +1,4 @@
----
-title: Lượng Trần - Learn. Work. Grow.
----
+# Lượng Trần - Learn. Work. Grow.
 
 <div align="center" style="margin-top: 20px;">
 <p style="font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;' ">
