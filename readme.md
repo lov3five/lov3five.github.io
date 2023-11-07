@@ -11,7 +11,7 @@
     <p style="font-size: 18px">Software Engineer | 💫Learn. 💻Work. 🌱Grow. | 💚Open Source</p>
 </div>
 <div>
-  <audio controls autoplay loop>
+  <audio controls loop>
     <source src="./resource/audio/Play-K-391-Alan-Walker-Martin-Tungev.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
