@@ -1,9 +1,9 @@
 <div align="center" style="margin-top: 20px;">
 <p style="font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;' ">
-    <a href="https://github.com/lov3five">GitHub</a> ▪
-    <a href="https://www.linkedin.com/in/luongtranstaff/">LinkedIn</a> ▪
-    <a href="https://twitter.com/luongtranstaff">X</a> ▪
-    <a href="https://instagram.com/nakervn">Instagram</a>
+    <a href="https://github.com/lov3five" target="_blank">GitHub</a> ▪
+    <a href="https://www.linkedin.com/in/luongtranstaff/" target="_blank">LinkedIn</a> ▪
+    <a href="https://twitter.com/luongtranstaff" target="_blank">X</a> ▪
+    <a href="https://instagram.com/nakervn" target="_blank">Instagram</a>
 </p>
 <div style="font-weight: bolder;">
     <img width="345px" style="border-radius:50%; margin-top: 35px;" src="https://avatars.githubusercontent.com/u/67590509?v=4"/>
