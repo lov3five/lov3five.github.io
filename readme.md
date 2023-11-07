@@ -1,4 +1,7 @@
-# Layout website blog basic {static 100% :v}
-## Languages code: HTML5, CSS3, JS {1%}
-## Project not responsive on device mobile, table, ...
-### Developing...
+<p align="center">
+  <samp>
+    <a href="https://github.com/lov3five?tab=repositories">Projects</a> .
+    <a href="https://twitter.com/luongtranstaff">X</a> .
+    <a href="https://instagram.com/nakervn">Instagram</a> .
+  </samp>
+</p>
