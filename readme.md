@@ -1,3 +1,4 @@
+<div style="margin-top: 20px">
 <p align="center">
   <samp>
     <a href="https://github.com/lov3five">GitHub</a> ▪
@@ -6,12 +7,11 @@
     <a href="https://instagram.com/nakervn">Instagram</a>
   </samp>
 </p>
-
-<div>
-<h1>Luong Tran</h1>
-<p>
-Hey, I'm Luong Tran, is an Software Engineer passionate about new technology and open source code 💚.
-</p>
+<div align="center">
+    <img width="360px" style="border-radius:50%; margin-top: 40px;" src="https://avatars.githubusercontent.com/u/67590509?v=4"/>
+    <p style="font-size: 36px">Lượng Trần</p>
+    <p style="font-size: 18px">Software Engineer | 💫Learn. 💻Work. 🌱Grow. | 💚Open Source</p>
+</div>
 </div>
 
 
