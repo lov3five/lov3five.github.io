@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>About me</h1>
+    <p style="font-size: 40px; font-weight: bolder">About me</p>
     <img style="border-radius: 50%" width="260px"
         src="https://media.licdn.com/dms/image/D5603AQHcVaanl35Xjg/profile-displayphoto-shrink_800_800/0/1694327418181?e=2147483647&v=beta&t=mgTu4qjjrMIONw3EgGArhsPinwkg5T_NM6vWdXIey00" />
     <div>
