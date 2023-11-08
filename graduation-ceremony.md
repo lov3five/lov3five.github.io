@@ -29,8 +29,9 @@
 <div id="graduation-time" class="graduation-time">
     <h2>Thời gian</h2>
     <p align="center" style="font-size: 30px">09AM - 12PM | Thứ 4, Ngày 29 Tháng 11 Năm 2023</p>
-    <iframe align="center" src="https://free.timeanddate.com/countdown/i93ph1vc/n218/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cac000/cpc000/pcfff/tcbfd2f0/fs100/szw576/szh243/tatL%E1%BB%85%20t%E1%BB%91t%20nghi%E1%BB%87p%20c%E1%BB%A7a%20L%C6%B0%E1%BB%A3ng/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2023-11-29T00:00:00/bat6/pa20" allowtransparency="true" frameborder="0" width="428" height="129"></iframe>
-
+    <div>
+    <iframe  src="https://free.timeanddate.com/countdown/i93ph1vc/n218/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cac000/cpc000/pcfff/tcbfd2f0/fs100/szw576/szh243/tatL%E1%BB%85%20t%E1%BB%91t%20nghi%E1%BB%87p%20c%E1%BB%A7a%20L%C6%B0%E1%BB%A3ng/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2023-11-29T00:00:00/bat6/pa20" allowtransparency="true" frameborder="0" width="428" height="129"></iframe>
+    </div>
 </div>
 
 
