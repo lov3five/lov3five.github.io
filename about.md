@@ -22,11 +22,12 @@
             learning and contributing to real-world projects, with a focus on creating advanced technology solutions
             that positively impact the community. Collaboration and knowledge sharing within the ever-evolving field of
             information technology are core values that I hold dea.
-            </br>
-            <span>🟢 I have a strong focus on backend system development, database design, querying, and administration.</span> </br>
-            <span>🟢 I’m currently learning NestJS, NextJS, Golang and advancing Backend & DevOps knowledge. </span> </br>
-            <span>🟢 Contact me: luongtranstaff@gmail.com</span>   
             </p>
     </div>
+            <div align="left">
+            🟢 I have a strong focus on backend system development, database design, querying, and administration. <br>
+            🟢 I’m currently learning NestJS, NextJS, Golang and advancing Backend & DevOps knowledge. <br>
+            🟢 Contact me: luongtranstaff@gmail.com 
+            </div>
 
 </div>
