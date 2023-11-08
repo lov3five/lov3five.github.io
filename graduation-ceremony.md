@@ -14,6 +14,39 @@
   .countdown {
     width: 100%;
   }
+
+  .blink-text {
+    fill: #000;
+    font-weight: bold;
+    font-size: 1.5rem;
+    animation: blinkingText 1s infinite;
+}
+
+     @keyframes blinkingText {
+    0% {
+      fill: #0192FF;
+    }
+
+    25% {
+      fill: #00FFF9;
+    }
+
+    50% {
+      fill: #6AFF05;
+    }
+
+    75% {
+      fill: #FFF000;
+    }
+
+    85% {
+      fill: #FFAA05;
+    }
+
+    100% {
+      fill: #FF0000;
+    }
+}
 }
 </style>
 
@@ -54,6 +87,7 @@
     <p style="font-size: 30px">Phương án 2: 17 Lê Lợi, Phường 4, Gò Vấp (cách ĐH Công nghiệp 100m)</p>
 </div>
 <h2></h2>
+<div><marquee style="font-size: 24px" behavior="scroll" direction="left" scrollamount="16">See you at Luong Tran's graduation ceremony</marquee></div>
 <!-- Footer -->
 <div class="footer" height="60px" align="center" style="margin-bottom: 0px;">
     <p>© 2023 L-3012 | Lượng Trần. All Rights Reserved.</p>
