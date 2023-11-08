@@ -1,35 +1,4 @@
-<style>
-/* Định dạng nút cơ bản */
-.button {
-  border: none;
-  color: white;
-  padding:4px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.button2 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #008CBA;
-}
-
-.button2:hover {
-  background-color: #008CBA;
-  color: white;
-}
-
-
-</style>
-<div class="button button2">
-    <a href="/"><img src="https://icons8.com/icon/26194/back-arrow"></a>
-</div>
+<button href="/">BACK</button>
 <div align="center">
     <p style="font-size: 40px; font-weight: bolder">About me</p>
     <img style="border-radius: 50%" width="260px"
