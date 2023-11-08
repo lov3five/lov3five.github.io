@@ -1,4 +1,4 @@
-<div><a href="/"><button style="border: solid white; border-radius: 2px">BACK</button></a>
+<div><a href="/"><button style="border: solid white;padding: 5px 5px; border-radius: 2px">BACK</button></a>
 </div>
 <div align="center">
     <p style="font-size: 40px; font-weight: bolder">About me</p>

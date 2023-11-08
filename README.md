@@ -3,7 +3,7 @@
 <!-- Main -->
 <div class="main" align="center" style="margin-top: 20px;">
     <p style="font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;' ">
-        <a href="https://lov3five.github.io/about" target="_blank">Me</a> ▪
+        <a href="https://lov3five.github.io/about">Me</a> ▪
         <a href="https://github.com/lov3five" target="_blank">GitHub</a> ▪
         <a href="https://www.linkedin.com/in/luongtranstaff/" target="_blank">LinkedIn</a> ▪
         <a href="https://twitter.com/luongtranstaff" target="_blank">X</a> ▪
