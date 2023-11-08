@@ -1,12 +1,14 @@
 <style>
 .title-event {
-    font-size:32px
+    font-size:32px;
+    font-weight: bolder;
 }
 /* CSS reponsive mobile */
 @media (max-width: 767px) {
   .title-event {
-    font-size: 16px;
+    font-size: 20px;
     margin: 5px;
+    font-weight: bolder;
   }
 }
 </style>
