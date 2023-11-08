@@ -1,5 +1,8 @@
 <style>
-/* CSS cho thiết bị di động */
+.title-event {
+    font-size:32px
+}
+/* CSS reponsive mobile */
 @media (max-width: 767px) {
   .title-event {
     font-size: 16px;
@@ -9,16 +12,16 @@
 </style>
 
 <div class="title-event">
-    <h1 align="center">✨🎈🎉Lượng's Graduation Ceremony🎉🎈✨</h1>
+    <p align="center">✨🎈🎉Lượng's Graduation Ceremony🎉🎈✨</p>
 </div>
-<div align="center" style="font-size: 30px; margin-top:20px">
+<div align="center" style="font-size: 30px;">
     <p style="font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;'; ">
         <a href="#graduation-time">Thời gian</a> ▪
         <a href="#graduation-address">Địa điểm</a>
     </p>
 </div>
-<div align="center" class="background-event">
- <video autoplay loop width="70%" src="./resource/video/Background_Graduation_Video.mp4"></video>
+<div align="center" class="background-event" width="100%">
+ <video autoplay loop width="100%" src="./resource/video/Background_Graduation_Video.mp4"></video>
 </div>
 
 <div id="graduation-time" class="graduation-time">
