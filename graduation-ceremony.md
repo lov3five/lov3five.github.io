@@ -58,7 +58,7 @@
 </style>
 
 <div class="title-event">
-    <p align="center">✨🎈🎉Lượng's Graduation Ceremony🎉🎈✨</p>
+    <p class="blink-text" align="center">✨🎈🎉Lượng's Graduation Ceremony🎉🎈✨</p>
 </div>
 <div align="center" style="font-size: 30px;">
     <p style="font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;'; ">
