@@ -28,7 +28,7 @@
 
 </style>
 <div class="button button2">
-    <img src="https://icons8.com/icon/26194/back-arrow">
+    <a href="/"><img src="https://icons8.com/icon/26194/back-arrow"></a>
 </div>
 <div align="center">
     <p style="font-size: 40px; font-weight: bolder">About me</p>
