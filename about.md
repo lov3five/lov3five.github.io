@@ -21,10 +21,11 @@
             prioritizes collaboration, adaptability, and delivering added value. I am enthusiastic about furthering my
             learning and contributing to real-world projects, with a focus on creating advanced technology solutions
             that positively impact the community. Collaboration and knowledge sharing within the ever-evolving field of
-            information technology are core values that I hold dear.
-            </p>
-            <p align="justify">
-            🟢 I have a strong focus on backend system development, database design, querying, and administration. </br>🟢 I’m currently learning NestJS, NextJS, Golang and advancing Backend & DevOps knowledge. </br> 🟢 Contact me: luongtranstaff@gmail.com   
+            information technology are core values that I hold dea.
+            </br>
+            <span>🟢 I have a strong focus on backend system development, database design, querying, and administration.</span> </br>
+            <span>🟢 I’m currently learning NestJS, NextJS, Golang and advancing Backend & DevOps knowledge. </span> </br>
+            <span>🟢 Contact me: luongtranstaff@gmail.com</span>   
             </p>
     </div>
 
