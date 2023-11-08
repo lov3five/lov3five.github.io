@@ -18,7 +18,7 @@
     </p>
 </div>
 <div align="center" class="background-event">
- <img width="120%" src="./resource/gif/Background_Graduation.gif" />
+ <video autoplay loop width="70%" src="./resource/video/Background_Graduation_Video.mp4"></video>
 </div>
 
 <div id="graduation-time" class="graduation-time">
