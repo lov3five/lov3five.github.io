@@ -12,37 +12,38 @@
         font-size:60px;
         font-weight: bolder;
     }
-  .blink-text {
-    fill: #000;
-    font-weight: bold;
-    font-size: 1.5rem;
-    animation: blinkingText 1s infinite;
-  }
- 
-     @keyframes blinkingText {
-    0% {
-      fill: #0192FF;
-    }
+.blink-text {
+            color: #000;
+            font-weight: bold;
+            font-size: 2rem;
+            animation: blinkingText 1.5s infinite;
+        }
 
-    25% {
-      fill: #00FFF9;
-    }
+        @keyframes blinkingText {
+            0% {
+                color: #0192FF;
+            }
 
-    50% {
-      fill: #6AFF05;
-    }
+            25% {
+                color: #00FFF9;
+            }
 
-    75% {
-      fill: #FFF000;
-    }
+            50% {
+                color: #6AFF05;
+            }
 
-    85% {
-      fill: #FFAA05;
-    }
+            75% {
+                color: #FFF000;
+            }
 
-    100% {
-      fill: #FF0000;
-    }
+            85% {
+                color: #FFAA05;
+            }
+
+            100% {
+                color: #FF0000;
+            }
+        }
 
     /* CSS reponsive mobile */
 @media (max-width: 767px) {
