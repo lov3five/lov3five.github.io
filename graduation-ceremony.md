@@ -16,7 +16,7 @@
     #background-img{
     display: none;
   }
-  #background-img{
+  #background-video{
     display: block;
   }
 .blink-text {
@@ -62,7 +62,7 @@
   #background-img{
     display: block;
   }
-  #background-img{
+  #background-video{
     display: none;
   }
 }
