@@ -9,15 +9,15 @@
     </div>
     <div>
             <p align="justify">
-            I'm Luong Tran , a software engineer specializing in web application development, holding a Bachelor's
-            degree in Information Technology from the Industrial University of Ho Chi Minh City (IUH). I have a
-            fundamental understanding of programming languages such as C, C++, Java; Data structures; Algorithms and
-            near proficiency in JavaScript, TypeScript, and Python. I have successfully developed applications using
-            frameworks like NestJS and Flask.
+            I'm <strong>Luong Tran</strong>, a software engineer specializing in web application development, holding a Bachelor's
+            degree in Information Technology from the <strong>Industrial University of Ho Chi Minh City (IUH)</strong>. I have a
+            fundamental understanding of programming languages such as <b>C, C++, Java; Data structures; Algorithms</b> and
+            near proficiency in <b>JavaScript</b>, <b>TypeScript</b>, and <b>Python</b>. I have successfully developed applications using
+            frameworks like <b>NestJS</b> and <b>Flask</b>.
             </p>
             <p align="justify">
                 Furthermore, I have hands-on experience in software development, having worked as a Product Backend Intern
-            at GEEK UP JSC. During this time, I gained practical exposure to the Agile/SCRUM methodology, which
+            at <strong>GEEK UP JSC</strong>. During this time, I gained practical exposure to the Agile/SCRUM methodology, which
             prioritizes collaboration, adaptability, and delivering added value. I am enthusiastic about furthering my
             learning and contributing to real-world projects, with a focus on creating advanced technology solutions
             that positively impact the community. Collaboration and knowledge sharing within the ever-evolving field of
@@ -26,8 +26,7 @@
     </div>
             <div align="left">
             🟢 I have a strong focus on backend system development, database design, querying, and administration. <br>
-            🟢 I’m currently learning NestJS, NextJS, Golang and advancing Backend & DevOps knowledge. <br>
+            🟢 I’m currently learning <b>NestJS</b>, <b>NextJS</b>, <b>Golang</b> and advancing <b>Backend & DevOps</b> knowledge. <br>
             🟢 Contact me: luongtranstaff@gmail.com 
             </div>
-
 </div>
