@@ -8,6 +8,9 @@
         <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&weight=900&pause=1000&color=15DBF7&center=true&vCenter=true&random=false&width=435&lines=Hey%2C+I'm+Luong+Tran+%F0%9F%98%8E;I+am+a+former+student+at+IUH+-+Vietnam+;I+am+pursuing+a+career+in+Software+Engineering;%F0%9F%92%ABLearn.+%F0%9F%92%BBWork.+%F0%9F%8C%B1Grow.;%F0%9F%A4%8DOpen+Source" alt="Typing SVG" /></a>
     </div>
     <div>
+        <img src="https://raw.githubusercontent.com/lov3five/readmebot/main/autochat.svg" />
+    </div>
+    <div>
             <p align="justify">
             I'm <strong>Luong Tran</strong>, a software engineer specializing in web application development, holding a Bachelor's
             degree in Information Technology from the <strong>Industrial University of Ho Chi Minh City (IUH)</strong>. I have a
