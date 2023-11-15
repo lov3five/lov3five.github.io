@@ -13,12 +13,6 @@
         font-weight: bolder;
     }
 
-    #background-img{
-    display: none;
-  }
-  #background-video{
-    display: block;
-  }
 .blink-text {
             color: #000;
             font-weight: bold;
@@ -59,12 +53,6 @@
     margin: 5px;
     font-weight: bolder;
   }
-  #background-img{
-    display: block;
-  }
-  #background-video{
-    display: none;
-  }
 }
 
 }
@@ -81,7 +69,6 @@
     </p>
 </div>
 <div align="center" class="background-event" width="100%">
- <video id="background-video" autoplay loop width="100%" src="./resource/video/Background_Graduation_Video.mp4"></video>
  <img id="background-img" width="100%" src="./resource/image/Background_Graduation.png">
 </div>
 
