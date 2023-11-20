@@ -12,7 +12,7 @@
     <div style="font-weight: bolder;">
         <img width="320px" style="border-radius:10px; margin-top: 35px;" src="./resource/gif/gif_logo.gif" />
         <p style="font-size: 36px">Lượng Trần</p>
-        <p style="font-size: 18px">Software Engineer | 💫Learn. 💻Work. 🌱Grow. | 💚Open Source</p>
+        <p style="font-size: 18px">Software Engineer | 💫Learn. 💻Work. 🌱Grow. | 🤍Open Source</p>
     </div>
     <div>
         <audio controls loop>
