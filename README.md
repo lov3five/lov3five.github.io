@@ -25,5 +25,5 @@
 <h1></h1>
 <!-- Footer -->
 <div class="footer" height="60px" align="center" style="margin-bottom: 0px;">
-    <p>© 2023 L-3012 | Lượng Trần. All Rights Reserved.</p>
+    <p>© 2024 L-3012 | Lượng Trần. All Rights Reserved.</p>
 </div>
